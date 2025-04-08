@@ -13,6 +13,10 @@ const ProductSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  errorCode: {
+    type: String,
+    default: 'N/A', // Optional default
+  }
 });
 
 module.exports = mongoose.model('Products', ProductSchema);
