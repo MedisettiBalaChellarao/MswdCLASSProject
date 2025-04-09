@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './App.css';
 import Home from './Components/Home';
 import Cart from './Components/Cart';
@@ -18,7 +18,7 @@ import User from './Components/User';
 //import PasskeySignInPage from './Components/PasskeySignInPage';
 //import ResponsiveAppBar from './Components/ResponsiveAppBar';
 //import ProductsCard from './Components/ProductsCard';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Navbar from './Components/Navbar';
 import ProductsCard from './Components/ProductsCard';
 import Welcome from './Components/Welcome';
