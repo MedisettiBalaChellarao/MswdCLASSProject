@@ -36,7 +36,7 @@ import UserMList from './Components/UserMList';
 import JWTLogin from './Components/JWTLogin';
 import JWTDashboard from './Components/JWTDashboard';
 import AuthContext from './context/AuthContext';
-import { AuthProvider } from "./context/AuthContext";
+
 import JWTRegister from './Components/JWTRegister';
 import FeedbackForm from './Components/FeedBackForm';
 import QRCodeViewer from './Components/QRCodeViewer';
