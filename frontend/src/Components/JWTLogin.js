@@ -12,7 +12,7 @@ const JWTLogin = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("http://localhost:6161/api/auth/jwtlogin", { email, password });
+      const { data } = await axios.post("https://mswdclassproject.onrender.com/api/auth/jwtlogin", { email, password });
   
       console.log("API Response:", data); // Debugging line
   

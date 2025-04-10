@@ -16,7 +16,7 @@ const JWTRegister = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:6161/api/auth/jwtregister", user);
+      await axios.post("https://mswdclassproject.onrender.com/api/auth/jwtregister", user);
       alert("User registered successfully!");
     } catch (error) {
       console.error("Registration failed", error);
