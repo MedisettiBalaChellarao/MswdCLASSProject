@@ -9,7 +9,7 @@ function ProductMList() {
   const [category, setCategory] = useState('');
   const [editingId, setEditingId] = useState(null);
 
-  const API_URL = process.env.REACT_APP_PRODUCTS_API_URL || 'http://localhost:5555/api/products';
+  const API_URL = process.env.REACT_APP_PRODUCTS_API_URL || 'https://mswdclassproject-crud.onrender.com/api/products';
 
   useEffect(() => {
     fetchProducts();
